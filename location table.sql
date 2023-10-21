@@ -18,4 +18,3 @@ insert into location values(24,'Guindy','Nagari','600032','517590');
 desc location;
 
 
-select name from driver where abs(to_date(login_date) - to_date(logout_date))>120;
